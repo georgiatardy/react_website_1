@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
-import PageTemplate from './components/PageTemplate';
-const App = props => <PageTemplate>Hello World!</PageTemplate>;
+import { HomePageContainer } from './components';
+
+
+const App = () => <HomePageContainer title="Hello World" />;
 export default App;
